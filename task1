@@ -1,0 +1,10 @@
+print("This is task 1")
+# Task 1 = Calculate factorial using recursive function
+def fac_rec(num):
+    if num==1:
+        return 1
+    else:
+        return num*fac_rec(num-1)
+num=int(input("Enter a number:"))
+result=fac_rec(num)
+print(f"Factorial of {num} is {result}")
