@@ -1,0 +1,10 @@
+print("This is task 2")
+# Task 2 = Calculations using math module
+import math
+num=int(input("Enter a number:"))
+result1=math.sqrt(num)
+print(f"Square root of {num} is {result1}")
+result2=math.log(num)
+print(f"logarithm of {num} is {result2}")
+result3=math.sin(num)
+print(f"sine of {num} is {result3}")
